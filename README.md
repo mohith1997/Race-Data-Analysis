@@ -1,6 +1,6 @@
 # Formula 1 results analytics dashboard
 
-Submission for CS5200 Database Management System
+Formula 1 race data analysis 
 
 ## Software requirement
 
@@ -21,11 +21,11 @@ There was a weird glitch with the latest version of MySQl which created some pri
 Run the following commands before running the dashboard to ensure it works.
 
 ```sql
-create user 'surya'@'%';
+create user 'mohith'@'%';
 -- or if that fails in your version this:
-create user 'surya'
+create user 'mohith'
 
-grant all privileges on *.* to 'surya'@'%';
+grant all privileges on *.* to 'mohith'@'%';
 ```
 
 ## Running the dashboard
